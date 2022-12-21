@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-21T03:39:56.377Z",
+        "line": 5,
+        "name": "Buy sauce lab back packs product",
+        "description": "",
+        "id": "user-succesfully-buy-product;buy-sauce-lab-back-packs-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.appium.java_client.AppiumDriver.findElement(org.openqa.selenium.By)\" because \"pages.BasePage.appiumDriver\" is null\r\n\tat pages.BasePage.clickElement(BasePage.java:22)\r\n\tat pages.ProductPage.clickProduct(ProductPage.java:23)\r\n\tat stepdefs.BuyProductStepDefs.userChooseTheProduct(BuyProductStepDefs.java:19)\r\n\tat ✽.User choose the product(file:///C:/Users/RIFKY/IdeaProjects/sauce-labs-app-test/src/test/resources/BuyProduct.feature:6)\r\n",
+              "duration": 12595400,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User choose the product",
+            "match": {
+              "location": "stepdefs.BuyProductStepDefs.userChooseTheProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User select color and quantity",
+            "match": {
+              "location": "stepdefs.BuyProductStepDefs.userSelectColorAndQuantity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click button add to cart",
+            "match": {
+              "location": "stepdefs.BuyProductStepDefs.userClickButtonAddToCart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@buyProduct"
+          }
+        ]
+      }
+    ],
+    "name": "User succesfully buy product",
+    "description": "    Buy with selected color and quantity",
+    "id": "user-succesfully-buy-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/BuyProduct.feature",
+    "tags": [
+      {
+        "name": "@buyProduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MavenPackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="io.cucumber:cucumber-junit" />
+          <option value="io.cucumber:cucumber-java" />
+          <option value="io.cucumber:cucumber-testng" />
+          <option value="io.appium:java-client" />
+          <option value="org.seleniumhq.selenium:selenium-java" />
+          <option value="net.masterthought:cucumber-reporting" />
+          <option value="io.cucumber:cucumber-core" />
+          <option value="junit:junit" />
+          <option value="org.testng:testng" />
+          <option value="org.apache.logging.log4j:log4j-api" />
+          <option value="org.apache.logging.log4j:log4j-core" />
+          <option value="org.seleniumhq.selenium:selenium-api" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
